@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PetRescue</string>
+    <string name="reg_strate">REGISTRATE</string>
+    <string name="gato">Gato</string>
+    <string name="perro">Perro</string>
+    <string name="nombre">Nombre</string>
+    <string name="celular">Celular</string>
+    <string name="nombre_de_tu_mascota">Nombre de tu Mascota</string>
+    <string name="raza_de_tu_mascota">Raza de tu mascota</string>
+    <string name="registrarme">REGISTRARME</string>
+    <string name="nombreApp">PetRescue</string>
+    <string name="crea_tu_cuenta">¡Crea tu cuenta!</string>
+    <string name="ingresa_con_tu_correo_electr_nico">Ingresa con tu correo electrónico</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+
+</resources>
