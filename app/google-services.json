@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "23360398520",
+    "firebase_url": "https://chat---petrescue-default-rtdb.firebaseio.com",
+    "project_id": "chat---petrescue",
+    "storage_bucket": "chat---petrescue.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23360398520:android:1ec953d19df946abf3004d",
+        "android_client_info": {
+          "package_name": "com.ucompensar.petrescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23360398520-85gkab9u1g28b31h811cc7ueqp3o1o0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubArLpMjsz4v7i8-o56QhxPQCXiJTR2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23360398520-85gkab9u1g28b31h811cc7ueqp3o1o0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
