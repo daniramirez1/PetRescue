@@ -14,6 +14,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.ucompensar.petrescue.CambiarPassword
 import com.ucompensar.petrescue.Constantes
 import com.ucompensar.petrescue.EditarInformacion
 import com.ucompensar.petrescue.OpcionesLoginActivity
@@ -50,6 +51,11 @@ class FragmentPerfil : Fragment() {
 
         binding.btnActualizarInfo.setOnClickListener {
             startActivity(Intent(mContext, EditarInformacion::class.java))
+        }
+
+        binding.btnCambiarPass.setOnClickListener {
+
+            startActivity(Intent(mContext, CambiarPassword::class.java))
         }
 
         binding.btnCerrarsesion.setOnClickListener {
@@ -98,10 +104,14 @@ class FragmentPerfil : Fragment() {
                         ).show()
                     }
 
+                    if(provedor == "Email"){
+                        binding.btnCambiarPass.visibility = View.VISIBLE
+                    }
+
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-                    TODO("Not yet implemented")
+
                 }
             })
 
